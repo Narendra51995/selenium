@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [testSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="classes" name="ChromeTest(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="108.0"/>
+    <classes>
+      <class name="test.SignUpPage">
+        <methods>
+          <include name="invalidEmailTest"/>
+          <include name="inValidPhoneTest"/>
+          <include name="setUp"/>
+          <include name="openBrowser"/>
+          <include name="validRegistrationTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.SignUpPage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="2" parallel="classes" name="EdgeTest(failed)" verbose="0">
+    <parameter name="browser" value="edge"/>
+    <parameter name="version" value="108.0"/>
+    <classes>
+      <class name="test.SignUpPage">
+        <methods>
+          <include name="invalidEmailTest"/>
+          <include name="termsRedirectionTest"/>
+          <include name="verifyElemntsOnPageTest"/>
+          <include name="loginRedirectionTest"/>
+          <include name="inValidPhoneTest"/>
+          <include name="privacyPolicyRedirectionTest"/>
+          <include name="setUp"/>
+          <include name="openBrowser"/>
+          <include name="landingPageRedirectionTest"/>
+          <include name="tearDown"/>
+          <include name="validRegistrationTest"/>
+        </methods>
+      </class> <!-- test.SignUpPage -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [testSuite] -->
