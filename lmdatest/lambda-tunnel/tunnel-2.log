@@ -1,0 +1,32 @@
+{"level":"info","time":"2023-01-08T01:36:50.812-0800","caller":"cobra@v1.1.1/command.go:854","msg":"LambdaTest Tunnel version: 3.1.25"}
+{"level":"debug","time":"2023-01-08T01:36:50.825-0800","caller":"cmd/lt.go:211","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-01-08T01:36:50.825-0800","caller":"cmd/lt.go:211","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2023-01-08T01:36:50.825-0800","caller":"cmd/lt.go:211","msg":"Fetching config"}
+{"level":"debug","time":"2023-01-08T01:36:50.825-0800","caller":"runtime/asm_amd64.s:1594","msg":"Starting tunnel With flags: --user narendra.patil51995 --key ***** --logFile C:\\Users\\HP\\Documents\\workspace-spring-tool-suite-4-4.13.0.RELEASE\\lmdatest\\lambda-tunnel\\tunnel-2.log --tunnelName QA-Test --controller jenkins --port 64862 -v"}
+{"level":"debug","time":"2023-01-08T01:36:52.083-0800","caller":"cmd/lt.go:211","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-01-08T01:36:52.414-0800","caller":"runtime/asm_amd64.s:1594","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-01-08T01:36:52.414-0800","caller":"runtime/asm_amd64.s:1594","msg":"Trying on port 22"}
+{"level":"debug","time":"2023-01-08T01:36:52.414-0800","caller":"core/lifecycle.go:138","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-01-08T01:36:52.414-0800","caller":"runtime/asm_amd64.s:1594","msg":"Trying over ssh over ws"}
+{"level":"info","time":"2023-01-08T01:36:52.482-0800","caller":"custom/setup.go:749","msg":"Tunnel binary started on port :64862"}
+{"level":"debug","time":"2023-01-08T01:36:52.548-0800","caller":"runtime/asm_amd64.s:1594","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-01-08T01:36:53.343-0800","caller":"runtime/asm_amd64.s:1594","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2023-01-08T01:36:53.343-0800","caller":"runtime/asm_amd64.s:1594","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2023-01-08T01:36:53.343-0800","caller":"runtime/asm_amd64.s:1594","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2023-01-08T01:36:53.343-0800","caller":"core/lifecycle.go:115","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-01-08T01:36:53.343-0800","caller":"cmd/lt.go:211","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-01-08T01:36:53.350-0800","caller":"core/lifecycle.go:233","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-01-08T01:36:53.855-0800","caller":"core/lifecycle.go:233","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-01-08T01:36:53.858-0800","caller":"runtime/asm_amd64.s:1594","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-01-08T01:36:55.408-0800","caller":"runtime/asm_amd64.s:1594","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-01-08T01:36:55.408-0800","caller":"runtime/asm_amd64.s:1594","msg":"controller bus registered"}
+{"level":"debug","time":"2023-01-08T01:36:55.411-0800","caller":"core/lifecycle.go:283","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-01-08T01:36:55.411-0800","caller":"runtime/asm_amd64.s:1594","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-01-08T01:36:56.006-0800","caller":"runtime/asm_amd64.s:1594","msg":"Successfully started sshd listener on port: 7896"}
+{"level":"debug","time":"2023-01-08T01:36:56.011-0800","caller":"runtime/asm_amd64.s:1594","msg":"Successfully started sshd listener on port: 6286"}
+{"level":"info","time":"2023-01-08T01:36:56.011-0800","caller":"runtime/asm_amd64.s:1594","msg":"You can start testing now"}
+{"level":"info","time":"2023-01-08T01:36:56.011-0800","caller":"runtime/asm_amd64.s:1594","msg":"Tunnel ID: 2918035"}
+{"level":"debug","time":"2023-01-08T01:36:56.011-0800","caller":"runtime/asm_amd64.s:1594","msg":"Remote Listener Started on Port 11649"}
+{"level":"debug","time":"2023-01-08T01:36:56.024-0800","caller":"runtime/asm_amd64.s:1594","msg":"Successfully started sshd listener on port: 13825"}
+{"level":"debug","time":"2023-01-08T01:36:56.138-0800","caller":"runtime/asm_amd64.s:1594","msg":"Successfully started sshd listener on port: 4299"}
+{"level":"debug","time":"2023-01-08T01:36:56.141-0800","caller":"runtime/asm_amd64.s:1594","msg":"Successfully started sshd listener on port: 12451"}
